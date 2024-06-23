@@ -1,0 +1,633 @@
+/* For mobile phones: */
+[class*="col-"] {
+  width: 100%;
+}
+
+@media only screen and (min-width: 600px) {
+
+  /* For tablets: */
+  .col-s-1 {
+    width: 8.33%;
+  }
+
+  .col-s-2 {
+    width: 16.66%;
+  }
+
+  .col-s-3 {
+    width: 25%;
+  }
+
+  .col-s-4 {
+    width: 33.33%;
+  }
+
+  .col-s-5 {
+    width: 41.66%;
+  }
+
+  .col-s-6 {
+    width: 50%;
+  }
+
+  .col-s-7 {
+    width: 58.33%;
+  }
+
+  .col-s-8 {
+    width: 66.66%;
+  }
+
+  .col-s-9 {
+    width: 75%;
+  }
+
+  .col-s-10 {
+    width: 83.33%;
+  }
+
+  .col-s-11 {
+    width: 91.66%;
+  }
+
+  .col-s-12 {
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+
+  /* For desktop: */
+  .col-1 {
+    width: 8.33%;
+  }
+
+  .col-2 {
+    width: 16.66%;
+  }
+
+  .col-3 {
+    width: 25%;
+  }
+
+  .col-4 {
+    width: 33.33%;
+  }
+
+  .col-5 {
+    width: 41.66%;
+  }
+
+  .col-6 {
+    width: 50%;
+  }
+
+  .col-7 {
+    width: 58.33%;
+  }
+
+  .col-8 {
+    width: 66.66%;
+  }
+
+  .col-9 {
+    width: 75%;
+  }
+
+  .col-10 {
+    width: 83.33%;
+  }
+
+  .col-11 {
+    width: 91.66%;
+  }
+
+  .col-12 {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 580px) {
+  #navbar {
+    padding: 20px 10px !important;
+  }
+}
+
+[class*="col-"] {
+  float: left;
+  padding: 15px;
+}
+
+html {
+  font-family: "Lucida Sans", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: justify;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:visited {
+  color: black;
+}
+
+a:hover {
+  text-decoration: none;
+  cursor: pointer;
+  color: black;
+  /*text-shadow: 5px 5px 20px black;*/
+}
+
+.parallax-window {
+  min-height: 700px;
+  background: transparent;
+}
+
+#navbar {
+  overflow: hidden;
+  padding: 100px 100px;
+  transition: 0.8s;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 99;
+}
+
+#navbar #navbar-right a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 10px;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 25px;
+  border-radius: 4px;
+  margin-top: 15px;
+}
+
+#navbar #logo {
+  font-size: 35px;
+  font-weight: bold;
+  transition: 0.8s;
+}
+
+#navbar #logo img {
+  width: 60px;
+}
+
+#navbar-right {
+  padding-top: 10px;
+  float: right;
+}
+
+#navbar-right img {
+  width: 15px;
+}
+
+#navbar-right a:hover {
+  background-color: #DCDCDC;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+
+.btn1 {
+  text-shadow: 5px 5px 10px black;
+}
+
+.logo img {
+  width: 200px;
+}
+
+#hide1 {
+  display: none;
+}
+
+#hide2 {
+  display: none;
+}
+
+#hide3 {
+  display: none;
+}
+
+#hide4 {
+  display: none;
+}
+
+#hide5 {
+  display: none;
+}
+
+#hide6 {
+  display: none;
+}
+#hide7 {
+  display: none;
+}
+
+body .body {
+  display: flex;
+  justify-content: center;
+}
+
+body .bodycontainer {
+  width: 1500px;
+}
+
+body .title {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+  font-size: 40px;
+  text-shadow: 5px 5px 20px black;
+}
+
+body .part {
+  display: flex;
+  box-shadow: 16px 16px 16px 16px rgba(0, 0, 0, 0.2);
+  margin-left: 65px;
+  z-index: -1;
+}
+
+body .left {
+  margin-top: 50px;
+}
+
+body .rightcontent {
+  padding-left: 50px;
+}
+
+.body .right .parallax-window, .body .left .parallax-window {
+  height: 800px;
+  width: 600px;
+  background: transparent;
+  margin-top: 60px;
+  z-index: 99;
+}
+
+body .body .part .imageudn img {
+  float: left;
+  width: 320px;
+  padding: 20px 10px 0 0;
+}
+.body .left .textudninimagepart1 {
+  float: left;
+  width: 395px;
+}
+
+
+.body .left .imagepart1 {
+  margin-left: 410px;
+  padding-top: 10px;
+}
+
+.body .left .imagepart1 img {
+  width: 600px;
+  box-shadow: 16px 16px 16px 16px rgba(0, 0, 0, 0.2);
+}
+
+#part2 .right {
+  padding-left: 150px;
+}
+
+#part2 .imageudn img {
+  float: left;
+  width: 300px;
+  padding-top: 115px;
+  padding-right: 10px;
+}
+
+#part2 .textudn {
+  padding-top: 90px;
+}
+
+#part2 {
+  margin-top: 100px;
+}
+#part3 .right a:hover {
+  text-decoration: none;
+  cursor: pointer;
+  color: black;
+  text-shadow: none;
+}
+
+#part3 .imageudn img {
+  width: 350px;
+  padding-right: 10px;
+  padding-top: 20px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+}
+#part3 .textudn{
+  padding-left: 10px;
+}
+
+body .decu1 {
+  margin-left: 50px;
+  margin-top: 20px;
+  background-color: white;
+  width: 595px;
+  height: 200px;
+  display: flex;
+  margin-top: 70px;
+  border-radius: 15px;
+}
+
+body .decu2, .decu3 {
+  margin-left: 50px;
+  margin-top: 20px;
+  background-color: white;
+  width: 595px;
+  height: 200px;
+  display: flex;
+  border-radius: 15px;
+}
+
+body .imagedecu img {
+  width: 300px;
+  height: 200px;
+  float: left;
+  border-radius: 15px 0 0 15px;
+  padding: 10px;
+}
+
+body .textdecu {
+  padding: 10px;
+  font-size: 15px;
+  text-align: justify;
+}
+
+#part3 .right a .decu1:hover {
+  box-shadow: 4px 4px 50px 16px rgba(0, 0, 0, 0.2);
+  background-color: #DCDCDC;
+}
+
+#part3 .right a .decu2:hover {
+  box-shadow: 4px 4px 50px 16px rgba(0, 0, 0, 0.2);
+  background-color: #DCDCDC;
+}
+
+#part3 .right a .decu3:hover {
+  box-shadow: 4px 4px 50px 16px rgba(0, 0, 0, 0.2);
+  background-color: #DCDCDC;
+}
+
+#part4 .tintuc{
+  display: flex;
+}
+#part4 .left .imagetintuc img{
+  width: 250px;
+  float: left;
+}
+#part4 .decu5 {
+  margin-top: 20px;
+  background-color: white;
+  width: 650px;
+  height: 200px;
+  display: flex;
+}
+#part4 .right{
+  margin-top: 50px;
+  margin-left: 110px;
+}
+
+footer .topfooter{
+  margin-top: 200px;
+  background-color: #DDDDDD;
+  text-align: center;
+  padding-top: 70px;
+  padding-bottom: 70px;
+  font-size: 20px;
+}
+footer .bottomfooter{
+  background-color: #C0C0C0;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+
+/*login*/
+
+
+/* Full-width input fields */
+#id01 input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+#id01 button {
+  background-color: gray;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+#id01 button:hover {
+  opacity: 0.8;
+}
+
+/* Extra styles for the cancel button */
+#id01 .cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: gray;
+}
+
+/* Center the image and position the close button */
+#id01 .imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+  position: relative;
+}
+
+#id01 img.avatar {
+  width: 40%;
+  border-radius: 50%;
+}
+
+#id01 .container {
+  padding: 16px;
+}
+
+#id01 span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+/* The Modal (background) */
+#id01 {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  padding-top: 60px;
+}
+
+/* Modal Content/Box */
+#id01 .modal-content {
+  background-color: #fefefe;
+  margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button (x) */
+.close {
+  position: absolute;
+  right: 25px;
+  top: 0;
+  color: #000;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+#id01 .close:hover,
+#id01 .close:focus {
+  color: gray;
+  cursor: pointer;
+}
+
+/* Add Zoom Animation */
+#id01 .animate {
+  -webkit-animation: animatezoom 0.6s;
+  animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+  from {-webkit-transform: scale(0)}
+  to {-webkit-transform: scale(1)}
+}
+
+@keyframes animatezoom {
+  from {transform: scale(0)}
+  to {transform: scale(1)}
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media (max-width:1080px){
+  .container{
+      margin-left: 1rem;
+      margin-right: 1rem;
+  }
+}
+@media (max-width:991px){
+  .nav{
+      padding: 15px 20px;
+  }
+  section{
+      padding: 3rem 0 1rem;
+  }
+  .home-text{
+      padding-left: 2rem;
+  }
+  .home-text h1{
+      font-size: 2.1rem;
+  }
+}
+@media (max-width: 920px) {
+  #search-icon {
+      color: var(--text-color);
+  }
+}
+@media (max-width: 768px){
+  .search-box input{
+      padding: 15px;
+  }
+  .nav{
+      padding: 10px 0;
+  }
+  #menu-icon{
+      display: initial;
+  }
+  .navbar{
+      position: absolute;
+      top: 100%;
+      right: 0;
+      left: 0;
+      display: flex;
+      flex-direction: column;
+      background: var(--bg-color);
+      row-gap: 0.5rem;
+      text-align: center;
+      box-shadow: 4px 4px 20px rgb(15 54 55 / 20%);
+      clip-path: circle(0% at 0% 0%);
+      transition: 0.6s;
+  }
+  .navbar a {
+      display: block;
+      padding: 15px;
+  }
+  .navbar a:hover,
+  .navbar .active{
+      border-bottom: none;
+      background: var(--main-color);
+      color: var(--bg-color);
+  }
+  .navbar.active{
+      clip-path: circle(144% at 0% 0%);
+  }
+  .blog-container .box{
+      padding: 4px;
+  }
+}
+@media(max-width: 727){
+  .heading span {
+      font-size: 0.9rem;
+  }
+  .heading h2 {
+      font-size: 1.4rem;
+  }
+  .about {
+      flex-direction: column-reverse;
+  }
+  .about-text {
+      text-align: center;
+  }
+  .about-text h2 {
+      font-size: 1.4rem;
+  }
+}
+@media(max-width: 670px){
+  .footer-container{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  }
+}
+@media(max-width: 360px){
+  .search-box input{
+      padding: 11px;
+  }
+  .home{
+      min-height: 500px;
+  }
+  .home-text h1 {
+      font-size: 2rem;
+  }
+  .home-text p br{
+      display: contents;
+  }
+}
